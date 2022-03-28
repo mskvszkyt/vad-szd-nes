@@ -22,22 +22,31 @@ div{
     text-align: center;
 }
 
-.menu{
+#figure ul li{
     display: inline;
-    font-size: large;
-    text-align: center;
-    align-items: center;
+    font-size: larger;
     position: relative;
+}
+
+#figure ul li a{
+    text-decoration: none;
+    color: blue;
+
+}
+
+#mainmenu ul li ul {
+    display: none;
+    position: absolute;
+    margin-left: -20px;
 }
 
 ul{
     border: 2px solid black;
-    width: fit-content;
 }
 
 img{
     border: 2px solid red;
     height: 150px;
-    width: 700px;
+    width: auto;
 
 }
